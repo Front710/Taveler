@@ -1,0 +1,203 @@
+@media screen and (max-width:1125px ) {
+    .theame-title::before {
+        width: 100px;
+    }
+    .theame-title::after {
+        width: 100px;
+    }
+}
+@media screen and (max-width: 990px) {
+    .screen-text {
+        padding-top: 193px;
+    }
+    .theame-title::before {
+        width: 50px;
+    }
+    .theame-title::after {
+        width: 50px;
+    }
+    .h2 {
+        font-size: 30px;
+    }
+    .subtitle {
+        font-size: 18px;
+    }
+    .text-box-item {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 898px) {
+    .logo {
+        margin-right: 70px;
+    }
+    .nav-item:hover {
+        transform: scale(1.1);
+    }
+    .map__about {
+        grid-template-columns: auto auto;
+    }
+    .theame-title::before {
+        width: 50px;
+    }
+    .theame-title::after {
+        width: 50px;
+    }
+    .sectin-screen {
+     background-color: #fff;
+     background-image: url(../img/map/imac.png); 
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 463px;
+     padding: 0;
+    }
+    .screen {
+        background: none;
+    }
+
+
+}
+
+@media screen and (max-width: 863px) {
+    .quicklinks-link {
+        margin-right: 7px;
+    }
+}
+
+@media screen and (max-width: 813px) {
+    .nav {
+        flex-direction: column;
+        border: none;
+    }
+    .nav-item {
+        width: 100%;
+    }
+    .nav-item:hover {
+        transform: scale(0.9);
+    }
+    .logo {
+        margin-right: 40px;
+    }
+    .quicklinks-link {
+        margin-right: 2px;
+    }
+    .nav-item:hover {
+        border-bottom: 13px solid #7322bd;
+    }
+    .logo {
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 750px) {
+    .footer-top {
+        flex-direction: column;
+    }
+    .footer-top-item {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer-top-item:first-child {
+        margin-bottom: 50px;    
+    }
+    .footer-nav {
+        justify-content: center;
+        max-width: none;
+    }
+    .footer-social {
+        justify-content: center;
+    }
+    .map__about {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .map-progress-item::after {
+        display: none;
+    }
+    .map-progress-item::before {
+        display: none;
+    }
+    .map-progress-item {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .map-progress-item img {
+        max-width: 100%;
+    }
+    .theame-title {
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 681px) {
+    .header {
+        justify-content: space-around;
+    }
+    .quicklinks {
+        display: none;
+    }
+    .theame-title::before {
+        display: none;
+    }
+    .theame-title::after {
+        display: none;
+    }
+    .footer-info-link {
+        flex-direction: column;
+    }
+    .footer-info-link a {
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .footer-info p {
+        text-align: center;
+    }
+    .sectionhaeder-inner {
+         background-position: center;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .header {
+        justify-content: space-between;
+    }
+    .search {
+        display: none;
+    }
+    .menu {
+         display: block;
+    }
+    .screen-text {
+    text-align: center;
+    padding-top: 220px;
+    padding-bottom: 132px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    .logo_about h1 {
+        font-size: 28px;
+    }
+    .theame-item h6 {
+        font-size: 13px;
+    }
+    .work-name {
+        font-size: 10px;
+    }
+    .h2 {
+        font-size: 25px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+}
+
